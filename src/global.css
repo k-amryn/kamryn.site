@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+* {
+    font-family: Inter;
+    font-size: 14pt;
+}
+
+a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+
+br {
+    content: "";
+    display: block;
+    margin: 15px 0;
+}
