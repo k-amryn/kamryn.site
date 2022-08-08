@@ -14,7 +14,8 @@
         border-radius: 15px;
     }
     .text {
-        width: 450px;
+        width:100%;
+        max-width: 450px;
         margin: auto;
         line-height: 20px;
     }
