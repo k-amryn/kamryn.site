@@ -4,13 +4,15 @@
 
 <div class="wrap">
     <div class="nav">
-        <span><a href="/">kamryn.site</a></span>
-        <span><a href="/software">software</a></span>
-        <span><a href="/art">art projects</a></span>
-        <span><a href="/writing">writing</a></span>
+        <span><a sveltekit:prefetch href="/">kamryn.site</a></span>
+        <span><a sveltekit:prefetch href="/software">software</a></span>
+        <span><a sveltekit:prefetch href="/art">art projects</a></span>
+        <span><a sveltekit:prefetch href="/writing">writing</a></span>
     </div>
 
-    <slot />
+    <main>
+        <slot />
+    </main>
 </div>
 
 <style>
@@ -31,5 +33,11 @@
     }
     a {
         color: black;
+    }
+    main {
+        margin-top: 50px;
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
     }
 </style>
