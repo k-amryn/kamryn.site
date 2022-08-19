@@ -1,8 +1,7 @@
 ---
 title: Vibes
+date: '2022-08-17'
 ---
-
-## Vibes
 
 I define vibes as feelings that can't be easily categorized under any common emotional category. They are feelings of something "lighting up" that happen when certain factors are met.
 

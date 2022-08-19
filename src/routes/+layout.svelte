@@ -25,11 +25,10 @@
         margin: auto;
         display: flex;
         width: 100%;
-        height: 80px;
+        height: 120px;
         place-content: center;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 50px;
     }
     a {
         color: black;

@@ -6,7 +6,7 @@ export async function load({ params }) {
 
     if (pages[`/src/lib/posts/${params.slug}.md`]) {
         const page = await pages[`/src/lib/posts/${params.slug}.md`]()
-        return {content: page.default.render().html}
+        return {metadata: page.metadata, content: page.default.render().html}
     }
     
     throw error(404, "Page not found")

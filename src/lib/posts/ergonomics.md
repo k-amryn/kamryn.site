@@ -1,8 +1,7 @@
 ---
 title: Ergonomics
+date: '2022-08-17'
 ---
-
-## Ergonomics
 
 Ergonomics is the measure of how compatible something is with our natural ways of operating. When trying to communicate [novel ideas](vibes) or values to people, it is necessary to design an "interface" for your ideas to maximize their bioavailability.
 
