@@ -3,16 +3,22 @@
   export let data;
 </script>
 
-<div class="heading">
-  <div class="left">
-    <h2>{data.metadata.title}</h2>
+{#if data.content == '404'}
+  <h2>404</h2>
+  <p>Dead link, sorry...</p>
+  <p><a href="/">Check out my website though</a></p>
+{:else}
+  <div class="heading">
+    <div class="left">
+      <h2>{data.metadata.title}</h2>
+    </div>
+    <div class="right">
+      <p>{data.metadata.date}</p>
+    </div>
   </div>
-  <div class="right">
-    <p>{data.metadata.date}</p>
-  </div>
-</div>
 
-{@html data.content}
+  {@html data.content}
+{/if}
 
 <style>
   .heading {
